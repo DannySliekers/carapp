@@ -9,12 +9,14 @@
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/car_recycler_view_fragment.xml" value="0.28940217391304346" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/carlisting_detail.xml" value="0.28306159420289856" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/carlisting_fragment.xml" value="0.28306159420289856" />
-        <entry key="..\:/Avans-android-app/app/src/main/res/layout/carlisting_view.xml" value="0.28306159420289856" />
+        <entry key="..\:/Avans-android-app/app/src/main/res/layout/carlisting_view.xml" value="0.33" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/dashboard_fragment.xml" value="0.28940217391304346" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/editcar_fragment.xml" value="0.28306159420289856" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/feedback_detail.xml" value="0.28306159420289856" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/feedback_fragment.xml" value="0.28940217391304346" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/feedback_view.xml" value="0.28306159420289856" />
+        <entry key="..\:/Avans-android-app/app/src/main/res/layout/makereservation_fragment.xml" value="0.25" />
+        <entry key="..\:/Avans-android-app/app/src/main/res/layout/newcar_detail.xml" value="0.25" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/newcar_fragment.xml" value="0.28306159420289856" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/reservation_detail.xml" value="0.2694746376811594" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/reservation_view.xml" value="0.28306159420289856" />
