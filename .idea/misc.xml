@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Avans-android-app/app/src/main/res/layout/activity_main.xml" value="0.2554347826086957" />
+        <entry key="..\:/Avans-android-app/app/src/main/res/layout/addcar_detail.xml" value="0.20520833333333333" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/addcar_fragment.xml" value="0.28306159420289856" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/car_detail.xml" value="0.28306159420289856" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/car_fragment.xml" value="0.28940217391304346" />

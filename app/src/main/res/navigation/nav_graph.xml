@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.carapp.fragments.DashboardFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/dashboard_fragment">
+        <action
+            android:id="@+id/action_dashboardFragment_to_reservationFragment"
+            app:destination="@id/reservationFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_feedbackFragment"
+            app:destination="@id/feedbackFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_carFragment"
+            app:destination="@id/carFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_carListingFragment"
+            app:destination="@id/carListingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/carFragment"
+        android:name="com.example.carapp.fragments.CarFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/car_fragment">
+        <action
+            android:id="@+id/action_carFragment_to_addCarFragment"
+            app:destination="@id/addCarFragment" />
+        <action
+            android:id="@+id/action_carFragment_to_editCarFragment"
+            app:destination="@id/editCarFragment" />
+        <action
+            android:id="@+id/action_backToDashboard"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/carListingFragment"
+        android:name="com.example.carapp.fragments.CarListingFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/carlisting_fragment">
+        <action
+            android:id="@+id/action_carListingFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_carListingFragment_to_carListingViewFragment"
+            app:destination="@id/carListingViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCarFragment"
+        android:name="com.example.carapp.fragments.AddCarFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/addcar_fragment">
+        <action
+            android:id="@+id/action_cancel"
+            app:destination="@id/carFragment" />
+        <action
+            android:id="@+id/action_added_car"
+            app:destination="@id/carFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editCarFragment"
+        android:name="com.example.carapp.fragments.EditCarFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/editcar_fragment">
+        <action
+            android:id="@+id/action_cancel"
+            app:destination="@id/carFragment" />
+        <action
+            android:id="@+id/action_edited_car"
+            app:destination="@id/carFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/feedbackFragment"
+        android:name="com.example.carapp.fragments.FeedbackFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/feedback_fragment">
+        <action
+            android:id="@+id/action_backToDashboard"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/makeReservationFragment"
+        android:name="com.example.carapp.fragments.MakeReservationFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/makereservation_fragment">
+        <action
+            android:id="@+id/action_cancel"
+            app:destination="@id/carListingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reservationFragment"
+        android:name="com.example.carapp.fragments.ReservationFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/reservation_fragment">
+        <action
+            android:id="@+id/action_backToDashboard"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/carListingViewFragment"
+        android:name="com.example.carapp.fragments.CarListingViewFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/carlisting_view">
+        <action
+            android:id="@+id/action_backToCarListing"
+            app:destination="@id/carListingFragment" />
+        <action
+            android:id="@+id/action_carListingViewFragment_to_makeReservationFragment"
+            app:destination="@id/makeReservationFragment" />
+    </fragment>
+</navigation>
