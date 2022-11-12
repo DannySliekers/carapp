@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Car App</string>
+    <string name="rent_my_car">Rent My Car</string>
+    <string name="my_reservations">My Reservations</string>
+    <string name="feedback">Feedback</string>
+    <string name="my_car">My Car(s)</string>
+    <string name="back_to_dashboard">Back to Dashboard</string>
+    <string name="cancel_reservation">Cancel Reservation</string>
+    <string name="edit_car">Edit Car</string>
+    <string name="delete_car">Delete Car</string>
+    <string name="save">Save</string>
+</resources>
