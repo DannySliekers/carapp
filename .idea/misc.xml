@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Avans-android-app/app/src/main/res/layout/activity_main.xml" value="0.2554347826086957" />
+        <entry key="..\:/Avans-android-app/app/src/main/res/layout/addcar_detail.xml" value="0.20520833333333333" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/addcar_fragment.xml" value="0.28306159420289856" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/car_detail.xml" value="0.28306159420289856" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/car_fragment.xml" value="0.28940217391304346" />
@@ -19,6 +21,7 @@
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/newcar_detail.xml" value="0.25" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/newcar_fragment.xml" value="0.28306159420289856" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/reservation_detail.xml" value="0.2694746376811594" />
+        <entry key="..\:/Avans-android-app/app/src/main/res/layout/reservation_fragment.xml" value="0.22554347826086957" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/reservation_view.xml" value="0.28306159420289856" />
         <entry key="..\:/Avans-android-app/app/src/main/res/layout/reservations_fragment.xml" value="0.28940217391304346" />
       </map>
