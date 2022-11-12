@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
 import com.example.carapp.databinding.ReservationFragmentBinding
 
 class ReservationFragment : Fragment() {
@@ -25,6 +26,10 @@ class ReservationFragment : Fragment() {
 
         binding?.apply {
             // Set up the button click listeners
+            backToDashboardReservationsBtn.setOnClickListener {
+                val action = ReservationFragmentDirections.actionBackToDashboard()
+                view.findNavController().navigate(action)
+            }
 
         }
     }

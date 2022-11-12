@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
 import com.example.carapp.databinding.FeedbackFragmentBinding
 
 class FeedbackFragment : Fragment() {
@@ -25,7 +26,10 @@ class FeedbackFragment : Fragment() {
 
         binding?.apply {
             // Set up the button click listeners
-
+            backToDashboardFeedbackBtn.setOnClickListener {
+                val action = FeedbackFragmentDirections.actionBackToDashboard()
+                view.findNavController().navigate(action)
+            }
         }
     }
 
