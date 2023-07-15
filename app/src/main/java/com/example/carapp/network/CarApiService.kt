@@ -12,5 +12,11 @@ private val retrofit = Retrofit.Builder()
 
 interface CarApiService {
     @GET("car")
-    fun getCars(): String
+    suspend fun getCars(): String
+}
+
+object CarApi {
+    val retrofitService : CarApiService by lazy {
+        retrofit.create(CarApiService::class.java)
+    }
 }
