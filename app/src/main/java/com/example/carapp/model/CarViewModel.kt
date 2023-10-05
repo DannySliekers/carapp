@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.carapp.network.CarApi
 import kotlinx.coroutines.launch
+import java.lang.Exception
 
 class CarViewModel : ViewModel() {
 
@@ -19,8 +20,12 @@ class CarViewModel : ViewModel() {
 
     private fun getCars() {
         viewModelScope.launch {
-            val listResult = CarApi.retrofitService.getCars()
-            _status.value = listResult
+            try {
+                val listResult = CarApi.retrofitService.getCars()
+                _status.value = listResult
+            } catch (e: Exception) {
+                _status.value = "Failure: ${e.message}"
+            }
         }
     }
 }
