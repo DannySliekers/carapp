@@ -1,4 +1,4 @@
-package com.example.carapp.network
+package com.example.carapp.data
 
 enum class CarSize {
     SMALL, MEDIUM, BIG

@@ -1,5 +1,6 @@
 package com.example.carapp.network
 
+import com.example.carapp.data.Car
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
 import retrofit2.Retrofit

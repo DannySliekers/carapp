@@ -4,10 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.carapp.network.Car
+import com.example.carapp.data.Car
 import com.example.carapp.network.CarApi
 import kotlinx.coroutines.launch
-import java.lang.Exception
 
 class CarViewModel : ViewModel() {
 
