@@ -20,6 +20,7 @@ class CarFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = CarFragmentBinding.inflate(inflater, container, false)
+        binding!!.lifecycleOwner = this
         binding!!.viewModel = viewModel
         return binding!!.root
     }
